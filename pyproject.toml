@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "audio-trans"
+version = "0.1.0"
+description = ""
+authors = ["jviper32 <12807430+jviper32@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+deepgram-sdk = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
